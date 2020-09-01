@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Twit-Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h3 class="title">Twit-Clone-Sample</h3>
+      <form class="twit-form">
+        <label for="name">name</label>
+        <input type="text" class="form-control" name="name" id="name" />
+        <label for="content">content</label>
+        <textarea
+          type="text"
+          class="form-control"
+          name="content"
+          id="content"
+        ></textarea>
+        <br />
+        <button for="submit" class="btn btn-primary">SendTwit</button>
+      </form>
+      <div class="loading">
+        <img src="loading.gif" alt="" />
+      </div>
+      <div class="twits"></div>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>
